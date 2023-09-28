@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment-1</title>
+    <style>
+        html {
+            scroll-behavior: smooth;
+        }
+
+        body {
+            margin: 0px;
+            padding: 0px;
+            width: 100%;
+            background-color: #3d3a3b;
+        }
+        
+        body {
+            overscroll-behavior: none;
+        }
+
+        .head {
+            margin: 0px;
+            padding: 5px;
+            display: flex;
+            flex-direction: row;
+            justify-content: flex-start;
+            background-color: #282828;
+        }
+
+        p {
+            margin: 5px;
+            color: #ffffff;
+            font-size: large;
+        }
+
+        ul {
+            padding-left: 10px;
+        }
+
+        h2 {
+            padding-left: 10px;
+            color: #FEE715;
+        }
+
+        ul a {
+            text-decoration: none;
+            color: #ffffff;
+            display: flex;
+            font-weight: bold;
+            font-style: oblique;
+            font-size: large;
+        }
+
+        .img1,
+        .img2,
+        .img3,
+        .img4,
+        .img5 {
+            text-align: center;
+            margin: 2px;
+            padding: 20px;
+        }
+        .img1 img,
+        .img2 img,
+        .img3 img,
+        .img4 img,
+        .img5 img {
+            width: 20%;
+            height: 30%;
+            object-fit: cover;
+        }
+    </style>
+</head>
+
+<body>
+    <div>
+        <div class="head">
+            <p><b>Index</b></p>
+            <p><b>Food</b></p>
+            <p><b>About</b></p>
+        </div>
+    </div>
+    <div class="Container">
+        <h2>
+            Top 5 favourite foods
+        </h2>
+        <ul>
+            <a href="#briyani">Briyani</a>
+            <a href="#bbq">BBQ</a>
+            <a href="#pizza">Pizza</a>
+            <a href="#sandwich">Sandwich</a>
+            <a href="#poratta">Parotta</a>
+        </ul>
+        <div class="img1" id="briyani">
+            <img src="../Images/briyani.jpeg" class="biryani" alt="biryani">
+            <figcaption style="text-align: center; color:white; font-weight:bold;">Briyani</figcaption>
+        </div>
+        <div class="img2" id="bbq">
+            <img src="../Images/bbq.jpg" class="bbq" alt="bbq">
+            <figcaption style="text-align: center; color:white; font-weight:bold;">BBQ</figcaption>
+        </div>
+        <div class="img3" id="pizza">
+            <img src="../Images/pizza.jpg" class="pizza" alt="pizza">
+            <figcaption style="text-align: center; color:white; font-weight:bold;">Pizza</figcaption>
+        </div>
+        <div class="img4" id="sandwich">
+            <img src="../Images/sandwich.jpg" class="sandwich" alt="sandwich">
+            <figcaption style="text-align: center; color:white; font-weight:bold;">Sandwich</figcaption>
+        </div>
+        <div class="img5" id="poratta">
+            <img src="../Images/parotta.jpeg" class="poratta" alt="poratta">
+            <figcaption style="text-align: center; color:white; font-weight:bold;">Parotta</figcaption>
+        </div>
+    </div>
+    </script>
+</body>
+
+</html>
